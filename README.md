@@ -52,22 +52,22 @@ This will generate all intermediate analysis CSVs and the final merged dataset u
 3. The script will:
 
     - Identify normogravity compression windows and compute hemodynamic metrics for 4 cm and 5 cm mCPR compressions.  
-        -  Outputs will be saved in the `processed data/mCPR compressions normogravity` folder:  
+        -  Outputs will be saved in the `processed data/mCPR compressions normogravity/` folder:  
         `four_cm_ground_analysis.csv`,  
         `five_cm_ground_analysis.csv`
 
     - Detect hypogravity compression windows and compute per-parabola hemodynamic metrics for 4 cm and 5 cm mCPR compressions.  
-        -  Outputs will be saved in the `processed data/mCPR compressions hypogravity` folder:  
+        -  Outputs will be saved in the `processed data/mCPR compressions hypogravity/` folder:  
         `four_cm_hypogravity_parabola_{i}_analysis.csv` for i = 1... 5,  
         `five_cm_hypogravity_parabola_{i}_analysis.csv` for i = 6... 10
 
     - Aggregate per-parabola hemodynamic metrics by compression depth.  
-        -  Outputs will be saved in the `processed data/mCPR compressions hypogravity` folder:  
+        -  Outputs will be saved in the `processed data/mCPR compressions hypogravity/` folder:  
         `four_cm_hypogravity_analysis.csv`,  
         `five_cm_hypogravity_analysis.csv`
 
     - Merge normogravity and hypogravity datasets into a master file used for statistics and figures.  
-        -  Output will be saved in the `processed data` folder:  
+        -  Output will be saved in the `processed data/` folder:  
         `mCPR_compressions_analysis.csv`
 
 Diagnostic figures (pressure vs. time with detected systolic peaks, diastolic troughs, and dicrotic notches) are generated for visual verification.
