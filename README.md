@@ -8,7 +8,7 @@ With the emergence of long-duration space travel, providing specialized healthca
 
 1. **Set up your environment**
 
-   You can use your base Python environment or create a conda environment (Python 3.9+):
+   You can use your base Python environment or create a conda environment (Python 3.9):
 
    ```
    conda create -n cpr_env python=3.9
@@ -18,14 +18,13 @@ With the emergence of long-duration space travel, providing specialized healthca
 2. **Set the working directory**
 
     ```
-    git clone <https://github.com/lordzoe/CPR-Simulator-Hypogravity.git>
+    git clone https://github.com/lordzoe/CPR-Simulator-Hypogravity.git
     cd CPR-Simulator-Hypogravity
     ```
 
 3. **Install dependencies**
 
     ```
-    conda install pip
     pip install pandas numpy matplotlib scipy
     ```
 
@@ -68,7 +67,7 @@ This will generate all intermediate analysis CSVs and the final merged dataset u
         `five_cm_hypogravity_analysis.csv`
 
     - Merge normogravity and hypogravity datasets into a master file used for statistics and figures.  
-        -  Outputs will be saved in the `processed data` folder:  
+        -  Output will be saved in the `processed data` folder:  
         `mCPR_compressions_analysis.csv`
 
 Diagnostic figures (pressure vs. time with detected systolic peaks, diastolic troughs, and dicrotic notches) are generated for visual verification.
