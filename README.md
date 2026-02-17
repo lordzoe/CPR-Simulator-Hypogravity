@@ -94,7 +94,7 @@ If you use this code or the associated CPR hypogravity methodology in your resea
 Citation details will be added here once the article is available.
 
 ```
-@article{cpr_simulator_hypogravity_2025,
+@article{cpr_simulator_hypogravity_2026,
     title   = {A high-fidelity simulator for evaluation of hemodynamic response during cardiopulmonary resuscitation in hypogravity environments},
     author  = {Lord, Z., Andrade, C., Leroux, L., Kadem, L.},
     journal = {npj Microgravity},
