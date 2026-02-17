@@ -1,8 +1,8 @@
-# Cardiopulmonary resuscitation (CPR) for human spaceflight: A high-fidelity CPR simulator for hypogravity environments
+# A high-fidelity simulator for evaluation of hemodynamic response during cardiopulmonary resuscitation in hypogravity environments
 
 ## Abstract
 
-With the emergence of long-duration space travel, providing specialized healthcare to astronauts is crucial for their survival. Prolonged space exploration missions pose a major concern due to the heightened risk of medical emergencies, such as sudden cardiac arrest. While several cardiopulmonary resuscitation (CPR) methods are proposed, their reliability and effectiveness remain uncertain, as none of these methods have been validated through physiological metrics. To address this gap, a high-fidelity CPR simulator was developed to simulate blood circulation and deliver real-time hemodynamic feedback. Herein, we show that in normogravity, the CPR simulator generated accurate compression-decompression waveforms that aligned with published animal and test bench studies. Hypogravity environments resulted in significantly elevated systolic, diastolic, mean, and pulse pressures compared to normogravity, while mechanical CPR compressions remained stable. These findings highlight the critical importance of internal physiological responses in evaluating CPR effectiveness under spaceflight conditions. The CPR simulator proves to be an effective tool for evaluating the performance of different CPR methods in hypogravity. Thus, the current study provides a foundational step toward supporting the identification and validation of a gold standard CPR protocol, contributing to the complex health challenges surrounding long-duration spaceflight.
+With the emergence of long-duration space travel, prolonged space exploration missions pose a major concern due to the heightened risk of medical emergencies, such as sudden cardiac arrest. While several cardiopulmonary resuscitation (CPR) methods have been proposed for human spaceflight, their reliability and effectiveness remain uncertain, as these methods lack systematic evaluation through physiological metrics. To address this gap, a high-fidelity CPR simulator was developed to simulate blood circulation and deliver real-time hemodynamic feedback. Herein, we show that in normogravity, the CPR simulator generated compression-decompression waveforms that aligned with published animal and test bench studies. As an exploratory comparison, we also report relative differences in hemodynamic pressure observed between normogravity and hypogravity conditions. The findings highlight that internal physiological responses are critical for evaluating CPR effectiveness in hypogravity, with the CPR simulator serving as a plausible tool. The current study represents an initial step toward the validation of a gold standard CPR protocol and may contribute to the complex health challenges surrounding long-duration spaceflight.
 
 ## Quickstart
 
@@ -95,12 +95,11 @@ Citation details will be added here once the article is available.
 
 ```
 @article{cpr_simulator_hypogravity_2025,
-    title   = {Cardiopulmonary resuscitation (CPR) for human spaceflight: A high-fidelity CPR simulator for hypogravity environments},
-    author  = {Lord, Z., Andrande, C., Leroux, L., Kadem, L.},
-    journal = {...},
-    year    = {...},
-    volume  = {...},
-    number  = {...},
-    pages   = {...}
+    title   = {A high-fidelity simulator for evaluation of hemodynamic response during cardiopulmonary resuscitation in hypogravity environments},
+    author  = {Lord, Z., Andrade, C., Leroux, L., Kadem, L.},
+    journal = {npj Microgravity},
+    year    = {2026},
+    pages   = {1-13},
+    DOI     = {10.1038/s41526-026-00577-1}
 }
 ```
